@@ -1,0 +1,1 @@
+EVerytime an exception is thrown in a thread, it does not cause adverse effects on current running main thread
