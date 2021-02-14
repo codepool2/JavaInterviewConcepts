@@ -23,7 +23,7 @@ public class BinaryTreeUse {
 
        // System.out.println(BinaryTreeAssignment.isNodePresent(rootNode, 1));
 
-        BinaryTreeAssignment.printNodesWithoutSiblings(rootNode);
+        BinaryTreeAssignment.printNodesWithoutSibling(rootNode);
 
         /*BinaryTree binaryTree = new BinaryTree();
 

@@ -21,7 +21,7 @@ public class BinaryTreeAssignment {
 
     }
 
-    public static void printNodesWithoutSiblings(BinaryTreeNode<Integer> root){
+    public static void printNodesWithoutSibling(BinaryTreeNode<Integer> root){
 
         if(root==null){
             return;
@@ -29,14 +29,14 @@ public class BinaryTreeAssignment {
 
         if(root.left!=null && root.right==null){
             System.out.print(root.left.data+" ");
-            printNodesWithoutSiblings(root.left);
+            printNodesWithoutSibling(root.left);
         }else if(root.left==null && root.right!=null){
             System.out.print(root.right.data+" ");
-            printNodesWithoutSiblings(root.right);
+            printNodesWithoutSibling(root.right);
         }else{
 
-            printNodesWithoutSiblings(root.left);
-            printNodesWithoutSiblings(root.right);
+            printNodesWithoutSibling(root.left);
+            printNodesWithoutSibling(root.right);
         }
     }
 }
