@@ -21,9 +21,11 @@ public class BinaryTreeUse {
         rootsLeftright.right=rootsLeftrightRight;
         rootsLeftLeft.right= rootsLeftLeftRight;
 
+
+        BinaryTree.takeInputElements();
        // System.out.println(BinaryTreeAssignment.isNodePresent(rootNode, 1));
 
-        BinaryTreeAssignment.printNodesWithoutSibling(rootNode);
+     //   BinaryTreeAssignment.printNodesWithoutSibling(rootNode);
 
         /*BinaryTree binaryTree = new BinaryTree();
 
